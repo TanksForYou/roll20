@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Orc",
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "alignment": "chaotic evil",
+    "AC": "13 (hide armor)",
+    "HP": "15 (2d8+6)",
+    "speed": "30 ft.",
+    "abilities": "STR 16 DEX 12 CON 16 INT 7 WIS 11 CHA 10",
+    "skills": "Intimidation +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Orc",
+    "challenge": "1/2",
+    "traits": [
+      "Aggressive. As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+    ],
+    "actions": [
+      "Greataxe. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+      "Javelin. Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    ]
+  },
+  {
+    "name": "Orog",
+    "size": "Medium",
+    "type": "humanoid (orc)",
+    "alignment": "chaotic evil",
+    "AC": "18 (plate)",
+    "HP": "42 (5d8+20)",
+    "speed": "30 ft.",
+    "abilities": "STR 18 DEX 12 CON 18 INT 12 WIS 11 CHA 12",
+    "skills": "Intimidation +5, Survival +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Orc",
+    "challenge": "2",
+    "traits": [
+      "Aggressive. As a bonus action, the orog can move up to its speed toward a hostile creature that it can see."
+    ],
+    "actions": [
+      "Multiattack. The orog makes two greataxe attacks.",
+      "Greataxe. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1dl2 + 4) slashing damage.",
+      "Javelin. Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    ]
+  },
+  {
+    "name": "Bugbear",
+    "size": "Medium",
+    "type": "humanoid (goblinoid)",
+    "alignment": "chaotic evil",
+    "AC": "16 (hide armor, shield)",
+    "HP": "27 (5d8+5)",
+    "speed": "30 ft.",
+    "abilities": "STR 15 DEX 14 CON 13 INT 8 WIS 11 CHA 9",
+    "skills": "Stealth +6, Survival +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Goblin",
+    "challenge": "1",
+    "traits": [
+      "Brute. A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).",
+      "Surprise Attack. If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+    ],
+    "actions": [
+      "Morningstar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+      "Javelin. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range."
+    ]
+  },
+  {
+    "name": "Goblin",
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "alignment": "neutral evil",
+    "AC": "15 (leather armor, shield)",
+    "HP": "7 (2d6)",
+    "speed": "30 ft.",
+    "abilities": "STR 8 DEX 14 CON 10 INT 10 WIS 8 CHA 8",
+    "skills": "Stealth +6",
+    "senses": "darkvision 60 ft., passive Perception 9",
+    "languages": "Common, Goblin",
+    "challenge": "1/4",
+    "traits": [
+      "Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+    ],
+    "actions": [
+      "Scimitar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+      "Shortbow. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "alignment": "neutral evil",
+    "AC": "17 (chain shirt, shield)",
+    "HP": "21 (6d6)",
+    "speed": "30 ft.",
+    "abilities": "STR 10 DEX 14 CON 10 INT 10 WIS 8 CHA 10",
+    "skills": "Stealth +6",
+    "senses": "darkvision 60 ft., passive Perception 9",
+    "languages": "Common, Goblin",
+    "challenge": "1",
+    "traits": [
+      "Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+    ],
+    "actions": [
+      "Multiattack. The goblin makes two attacks with its scimitar. The second attack has disadvantage.",
+      "Scimitar. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+      "Javelin. Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage."
+    ]
+  },
+  {
+    "name": "Bandit",
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "alignment": "any non-lawful alignment",
+    "AC": "12 (leather armor)",
+    "HP": "11 (2d8+2)",
+    "speed": "30 ft.",
+    "abilities": "STR 11 DEX 12 CON 12 INT 10 WIS 10 CHA 10",
+    "senses": "passive Perception 10",
+    "languages": "any one language (usually Common)",
+    "challenge": "1/8",
+    "actions": [
+      "Scimitar. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+      "Light Crossbow. Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    ]
+  },
+  {
+    "name": "Bandit Captain",
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "alignment": "any non-lawful alignment",
+    "AC": "15 (studded leather)",
+    "HP": "65 (10d8+20)",
+    "speed": "30 ft.",
+    "abilities": "STR 15 DEX 16 CON 14 INT 14 WIS 11 CHA 14",
+    "savingThrows": "Str +4, Dex +5, Wis +2",
+    "skills": "Athletics +4, Deception +4",
+    "senses": "passive Perception 10",
+    "languages": "any two languages",
+    "challenge": "2",
+    "actions": [
+      "Multiattack. The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.",
+      "Scimitar. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+      "Dagger. Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+    ]
+  },
+  {
+    "name": "Lich",
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "any evil alignment",
+    "AC": "17 (natural armor)",
+    "HP": "135 (18d8+54)",
+    "speed": "30 ft.",
+    "abilities": "STR 11 DEX 16 CON 16 INT 20 WIS 14 CHA 16",
+    "savingThrows": "Con +10, Int +12, Wis +9",
+    "skills": "Arcana +18, History +12, Insight +9, Perception +9",
+    "damageResistances": "cold, lightning, necrotic",
+    "damageImmunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "senses": "truesight 120 ft., passive Perception 19",
+    "languages": "Common plus up to five other languages",
+    "challenge": "21",
+    "traits": [
+      "Legendary Resistance (3/Day). If the lich fails a saving throw, it can choose to succeed instead.",
+      "Rejuvenation. If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.",
+      "Spellcasting. The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:",
+      "• Cantrips (at will): mage hand, prestidigitation, ray of frost",
+      "• 1st level (4 slots): detect magic, magic missile, shield, thunderwave",
+      "• 2nd level (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
+      "• 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball",
+      "• 4th level (3 slots): blight, dimension door",
+      "• 5th level (3 slots): cloudkill, scrying",
+      "• 6th level (1 slot): disintegrate, globe of invulnerability",
+      "• 7th level (1 slot): finger of death, plane shift",
+      "• 8th level (1 slot): dominate monster, power word stun",
+      "• 9th level (1 slot): power word kill",
+      "Turn Resistance. The lich has advantage on saving throws against any effect that turns undead."
+    ],
+    "actions": [
+      "Paralyzing Touch. Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "lairActions": [
+      "The lich rolls a d8 and regains a spell slot of that level or lower. If it has no spent spell slots of that level or lower, nothing happens.",
+      "The lich targets one creature it can see within 30 feet of it. A crackling cord of negative energy tethers the lich to the target. Whenever the lich takes damage, the target must make a DC 18 Constitution saving throw. On a failed save, the lich takes half the damage (rounded down), and the target takes the remaining damage. This tether lasts until initiative count 20 on the next round or until the lich or the target is no longer in the lich's lair.",
+      "The lich calls forth the spirits of creatures that died in its lair. These apparitions materialize and attack one creature that the lich can see within 60 feet of it. The target must succeed on a DC 18 Constitution saving throw, taking 52 (15d6) necrotic damage on a failed save, or half as much damage on a success. The apparitions then disappear."
+    ],
+    "legendaryPoints": "3",
+    "legendaryActions": [
+      "Cantrip. The lich casts a cantrip.",
+      "Paralyzing Touch (Costs 2 Actions). The lich uses its Paralyzing Touch.",
+      "Frightening Gaze (Costs 2 Actions). The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.",
+      "Disrupt Life (Costs 3 Actions). Each living creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
+    ]
+  }
+]
